@@ -161,15 +161,7 @@ span {
     background-repeat: no-repeat;
     padding:100px  ; 
 margin-top:150px ;
-margin-left: 150px;}
-.btn-keep{
-    color:tomato;
-    font-size: 22px;
-    font-weight: bold;
-    padding: 10px 10px;
-    border-radius: 5px;
-    border: none;
-    
+margin-left: 150px;
 }
 .btn-maino{color:rgb(15, 56, 102);
     font-size: 22px;
@@ -183,4 +175,57 @@ margin-left: 150px;}
     font-weight: bold;
     font-size: 36px;
 }
+/* footer */
+.address{background-color:rgba(0, 0, 0, 0.911);
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+.main-address{
+    display: flex;
+}
+.bottom-text{color: aliceblue;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+.address-title{
+    text-transform: capitalize;
+    font-size: 14px;
+    color: white;
+
+}
+.favicon{
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: capitalize;
+    padding:250px 150px;
     
+}
+.btn-mainoo{
+    background-color: rgb(37, 143, 204);
+    font-size: 22px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    text-transform: capitalize;
+}
+.right-input{color: aliceblue;
+    font-size: 30px;
+    padding:250px 200px;
+}
+.btn-keepp{
+    margin-top: 10px; 
+}
+input[type="email"] {width:200px;
+    height: 40px;
+    border: 1px solid white;
+    outline: none;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+.icon-footer{
+    display: flex;  
+}
