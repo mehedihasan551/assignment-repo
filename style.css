@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+   ;
 }
 /* background style */
 .title{
@@ -55,4 +56,44 @@ span{
     border-radius: 10px;
     border: none;
       
+}
+/* content-part */
+.content{ height: 100vh;
+    width: 100%;
+   
+   
+}
+.content-text{
+    display: flex;
+   
+}
+.content-main{text-align: center;
+    padding: 300px 50px;
+
+}
+/* content text part */
+
+
+.content-title{ 
+    text-transform: capitalize;
+    padding: 18px 300px;
+    color: black ;
+    font-size: 46px;
+    margin-bottom:10px ;
+    
+}
+.content-description{
+    text-transform: capitalize;
+    font-size: 14px;
+    color: grey;
+    padding: 15px;
+
+}
+.texxt{
+    text-transform: capitalize;
+    font-size: 14px;
+    color:grey;
+    padding: 5px ;
+    list-style-type: none;
+    
 }
